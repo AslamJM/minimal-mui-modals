@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useReducer } from 'react'
 
-interface ModalState {
+export interface ModalState {
   addModalOpen: boolean
   editModalOpen: boolean
   deleteModalOpen: boolean
@@ -74,7 +74,7 @@ export const useModalContext = (): ModalState => {
   return context
 }
 
-interface ModalProviderProps {
+export interface ModalProviderProps {
   children: React.ReactNode
 }
 

@@ -4,7 +4,7 @@ import { FC } from 'react'
 
 import { useModalContext } from './ModalContext'
 
-interface EditModalProps extends DrawerProps {
+export interface EditModalProps extends DrawerProps {
   updateFn: () => void
 }
 

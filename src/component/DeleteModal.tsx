@@ -4,7 +4,7 @@ import { FC } from 'react'
 
 import { useModalContext } from './ModalContext'
 
-interface DeleteModalProps extends DialogContentProps {
+export interface DeleteModalProps extends DialogContentProps {
   deleteFn: () => void
   title: string
 }

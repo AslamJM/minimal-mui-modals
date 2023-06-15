@@ -4,7 +4,7 @@ import { FC } from 'react'
 
 import { useModalContext } from './ModalContext'
 
-interface AddModalProps extends DialogContentProps {
+export interface AddModalProps extends DialogContentProps {
   addFn: () => void
   title: string
 }
